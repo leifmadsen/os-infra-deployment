@@ -20,4 +20,4 @@ jenkins_job_builder_template_jenkins_jobs_ini_group: "{{ jenkins_user_group }}"
 jenkins_job_builder_template_jenkins_jobs_ini_mode: "0440"
 jenkins_job_builder_template_jenkins_jobs_ini_owner: "{{ jenkins_user_name }}"
 
-jenkins_job_builder_file_jobs_src: /home/pabelanger/git/pabelanger/config/jenkins/jobs/
+jenkins_job_builder_file_jobs_src: config/jenkins/jobs/

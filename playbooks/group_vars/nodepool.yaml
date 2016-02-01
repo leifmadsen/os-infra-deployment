@@ -22,10 +22,10 @@ nodepool_config_zmq_publishers:
   - tcp://{{ hostvars.jenkins01.ansible_ssh_host }}:8888
   - tcp://{{ hostvars.jenkins02.ansible_ssh_host }}:8888
 
-nodepool_elements_dir: /home/pabelanger/git/pabelanger/config/nodepool/elements/
-nodepool_scripts_dir: /home/pabelanger/git/pabelanger/config/nodepool/scripts/
+nodepool_elements_dir: config/nodepool/elements/
+nodepool_scripts_dir: config/nodepool/scripts/
 
-nodepool_template_nodepool_yaml_contents: "{{ lookup('file', '/home/pabelanger/git/pabelanger/config/nodepool/nodepool.yaml') }}"
+nodepool_template_nodepool_yaml_contents: "{{ lookup('file', 'config/nodepool/nodepool.yaml') }}"
 
 nginx_config_include_files: files/nodepool/etc/nginx/conf.d/
 

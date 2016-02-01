@@ -11,12 +11,12 @@ logrotate_configs:
 
 zuul_config_gearman_server_listen_address: 0.0.0.0
 zuul_config_gerrit_server: review.openstack.org
-zuul_config_gerrit_user: ufuktron
+zuul_config_gerrit_user: ci_user
 
-zuul_config_merger_git_user_email: ufuktron@gmail.com
-zuul_config_merger_git_user_name: ufuktron
+zuul_config_merger_git_user_email: ci_user@upstream.tld
+zuul_config_merger_git_user_name: ci_user
 
-zuul_file_layout_src: /home/pabelanger/git/pabelanger/config/zuul/
+zuul_file_layout_src: config/zuul/
 
 ssh_user_name: zuul
 ssh_user_home: /var/lib/zuul
