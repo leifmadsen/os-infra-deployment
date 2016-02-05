@@ -1,0 +1,5 @@
+---
+local_home: "{{ lookup('env','HOME')   }}"
+config_git_dest: "{{ local_home  }}/src/github/windmill-configs"
+config_git_uri: https://github.com/leifmadsen/config
+config_git_version: master

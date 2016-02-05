@@ -49,4 +49,4 @@
       sudo: yes
 
   vars_files:
-    - vars/jenkins.yaml
+    - "{{config_git_dest }}/vars/jenkins.yaml"

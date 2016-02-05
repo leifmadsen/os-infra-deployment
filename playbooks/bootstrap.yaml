@@ -1,0 +1,13 @@
+#vim: ft=ansible
+---
+- name: Testing debug output
+  hosts: localhost
+
+  tasks:
+    - name: Pull configuration files from Git
+      git:
+        repo: "{{ config_git_uri }}"
+        dest: "{{ config_git_dest }}"
+        version: "{{ config_git_version }}"
+        depth: 1
+        accept_hostkey: yes

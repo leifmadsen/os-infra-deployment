@@ -20,4 +20,4 @@
     - ansible-role-nginx
     - ansible-role-logrotate
   vars_files:
-    - vars/nodepool.yaml
+    - "{{ config_git_dest }}/vars/nodepool.yaml"

@@ -9,4 +9,4 @@
     - ansible-role-logrotate
 
   vars_files:
-    - vars/zuul.yaml
+    - "{{ config_git_dest }}/vars/zuul.yaml"

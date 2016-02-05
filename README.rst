@@ -8,7 +8,7 @@ Quick Start
 
 Install playbook dependencies
 
-    tox -evenv -- ansible-galaxy install -p playbooks/roles -r playbooks/requirements.yaml
+    tox -evenv -- ansible-galaxy install --ignore-errors -p playbooks/roles -r playbooks/requirements.yaml
 
 Basic full deployment
 
